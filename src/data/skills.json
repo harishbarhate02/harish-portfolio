@@ -1,0 +1,35 @@
+[
+    {
+        "category": "Data Science",
+        "skills": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Scikit-learn",
+            "TensorFlow",
+            "Matplotlib"
+        ]
+    },
+    {
+        "category": "Web Development",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Tailwind CSS",
+            "Node.js"
+        ]
+    },
+    {
+        "category": "Tools & Databases",
+        "skills": [
+            "Git",
+            "GitHub",
+            "SQL",
+            "MySQL",
+            "VS Code",
+            "Jupyter"
+        ]
+    }
+]

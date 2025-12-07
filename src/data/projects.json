@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Hotel Booking Cancellation Prediction",
+        "tech": [
+            "Python",
+            "Scikit-learn",
+            "Random Forest"
+        ],
+        "description": "Built a classification model on 119,000+ records to predict cancellations with high accuracy.",
+        "githubLink": "https://github.com/harishbarhate/hotel-booking-prediction"
+    },
+    {
+        "id": 2,
+        "title": "Smart Timetable Generator",
+        "tech": [
+            "Python",
+            "Genetic Algorithms"
+        ],
+        "description": "Automated scheduling system resolving NP-hard constraints for university timetables.",
+        "githubLink": "https://github.com/harishbarhate/smart-timetable"
+    },
+    {
+        "id": 3,
+        "title": "Olympics Analysis",
+        "tech": [
+            "Python",
+            "Pandas",
+            "Streamlit"
+        ],
+        "description": "Interactive dashboard analyzing 120 years of Olympic history and athlete performance.",
+        "githubLink": "https://github.com/harishbarhate/olympics-analysis"
+    }
+]
