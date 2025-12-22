@@ -4,7 +4,7 @@ This is the personal portfolio website of **Harish Barhate**, a robust applicati
 
 ## 🚀 Live Demo
 
-**[View Portfolio](https://harishbarhate.github.io/portfolio)**
+**[View Portfolio](https://harishbarhate02.github.io/harish-portfolio/)**
 
 ## 🛠 Tech Stack
 
