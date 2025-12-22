@@ -4,16 +4,22 @@ const Experience = () => {
     // Placeholder data - move to JSON if preferred later
     const experiences = [
         {
-            company: "Cuvette Tech",
-            role: "Software Developer Intern",
-            period: "Jan 2024 - Present", // Modify as needed
-            description: "Working on full-stack web development projects."
+            company: "Cuvette Tech Pvt. Ltd.",
+            role: "Data Science Intern",
+            period: "Feb 2025 - Aug 2025",
+            description: [
+                "Successfully completed a rigorous 6-month internship program focused on SQL, Excel, Tableau, Python and Machine Learning.",
+                "Trained under top alumni from IIT Kharagpur, gaining practical proficiency in data analysis and predictive modeling."
+            ]
         },
         {
-            company: "Estro Pvt. Ltd.",
-            role: "Data Science Intern",
-            period: "Jun 2023 - Dec 2023", // Modify as needed
-            description: "Developed machine learning models for predictive analysis."
+            company: "Estro Pvt. Ltd, Nashik",
+            role: "AI/ML Intern",
+            period: "Apr 2022",
+            description: [
+                "Built and deployed an image detection system utilizing Python and OpenCV.",
+                "Performed hyperparameter tuning to optimize model performance, successfully increasing accuracy by 15%."
+            ]
         }
     ];
 
@@ -32,7 +38,15 @@ const Experience = () => {
                             </div>
                             <div className="md:w-2/3">
                                 <h4 className="text-lg font-semibold text-gray-900">{exp.role}</h4>
-                                <p className="text-gray-600 mt-2">{exp.description}</p>
+                                {Array.isArray(exp.description) ? (
+                                    <ul className="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                                        {exp.description.map((item, idx) => (
+                                            <li key={idx}>{item}</li>
+                                        ))}
+                                    </ul>
+                                ) : (
+                                    <p className="text-gray-600 mt-2">{exp.description}</p>
+                                )}
                             </div>
                         </div>
                     ))}

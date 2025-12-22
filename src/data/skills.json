@@ -1,35 +1,46 @@
 [
     {
-        "category": "Data Science",
+        "category": "Data Science & ML",
         "skills": [
             "Python",
-            "Pandas",
             "NumPy",
+            "Pandas",
+            "Matplotlib",
             "Scikit-learn",
-            "TensorFlow",
-            "Matplotlib"
+            "OpenCV"
         ]
     },
     {
-        "category": "Web Development",
+        "category": "Algorithms & Techniques",
         "skills": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "React",
-            "Tailwind CSS",
-            "Node.js"
+            "Regression Analysis",
+            "Classification",
+            "Clustering",
+            "Genetic Algorithms",
+            "Computer Vision"
         ]
     },
     {
-        "category": "Tools & Databases",
+        "category": "Data Collection & Management",
+        "skills": [
+            "SQL",
+            "Web Scraping (BeautifulSoup)",
+            "Firebase"
+        ]
+    },
+    {
+        "category": "Tools & Platforms",
         "skills": [
             "Git",
-            "GitHub",
-            "SQL",
-            "MySQL",
-            "VS Code",
-            "Jupyter"
+            "Linux",
+            "Jupyter Notebooks"
+        ]
+    },
+    {
+        "category": "Additional Languages",
+        "skills": [
+            "JavaScript",
+            "Dart"
         ]
     }
 ]

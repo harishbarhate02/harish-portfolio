@@ -7,28 +7,26 @@
             "Scikit-learn",
             "Random Forest"
         ],
-        "description": "Built a classification model on 119,000+ records to predict cancellations with high accuracy.",
-        "githubLink": "https://github.com/harishbarhate/hotel-booking-prediction"
+        "description": "Built a classification model on 119,000+ records using Random Forest and Gradient Boosting to predict cancellations. Optimized model performance using GridSearchCV.",
+        "githubLink": "https://github.com/harishbarhate"
     },
     {
         "id": 2,
+        "title": "Olympics History Data Analysis",
+        "tech": [
+            "SQL (PostgreSQL)"
+        ],
+        "description": "Analysed 270,000+ athlete records using advanced SQL queries (Joins, CTEs, Window Functions) to identify performance trends.",
+        "githubLink": "https://github.com/harishbarhate"
+    },
+    {
+        "id": 3,
         "title": "Smart Timetable Generator",
         "tech": [
             "Python",
             "Genetic Algorithms"
         ],
-        "description": "Automated scheduling system resolving NP-hard constraints for university timetables.",
-        "githubLink": "https://github.com/harishbarhate/smart-timetable"
-    },
-    {
-        "id": 3,
-        "title": "Olympics Analysis",
-        "tech": [
-            "Python",
-            "Pandas",
-            "Streamlit"
-        ],
-        "description": "Interactive dashboard analyzing 120 years of Olympic history and athlete performance.",
-        "githubLink": "https://github.com/harishbarhate/olympics-analysis"
+        "description": "Developed an automated scheduling system using Genetic Algorithms to resolve NP-hard constraint conflicts, increasing efficiency by 40%.",
+        "githubLink": "https://github.com/harishbarhate"
     }
 ]

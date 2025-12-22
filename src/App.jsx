@@ -7,6 +7,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import Education from './components/Education';
+
 function App() {
     return (
         <div className="antialiased text-gray-900">
@@ -15,6 +17,7 @@ function App() {
                 <Hero />
                 <Skills />
                 <Experience />
+                <Education />
                 <Projects />
                 <Contact />
             </main>

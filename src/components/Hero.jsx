@@ -19,9 +19,14 @@ const Hero = () => {
                     <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
                         Hi, I'm <span className="text-indigo-600">Harish Barhate</span>
                     </h1>
-                    <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                        A Computer Science Graduate focused on Data Science, Machine Learning, and Full Stack Development.
+                    <p className="text-xl md:text-2xl text-gray-600 mb-6 max-w-3xl mx-auto">
+                        Results-driven Computer Science graduate with strong foundations in Data Science, Machine Learning, and Python. Passionate about leveraging data to solve real-world problems.
                     </p>
+                    <div className="flex flex-wrap justify-center gap-4 text-gray-600 mb-8">
+                        <span className="flex items-center gap-2">📍 Nagpur, Maharashtra</span>
+                        <span className="flex items-center gap-2">📱 9637948416</span>
+                        <span className="flex items-center gap-2">✉️ harishbarhate29@gmail.com</span>
+                    </div>
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
                         <a href="#projects" className="px-8 py-3 bg-indigo-600 text-white font-medium rounded-full hover:bg-indigo-700 transition-colors shadow-lg hover:shadow-xl">
                             View Projects
