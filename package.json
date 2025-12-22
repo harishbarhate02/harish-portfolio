@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://harishbarhate.github.io/portfolio",
+  "homepage": "https://harishbarhate02.github.io/harish-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
     "autoprefixer": "^10.4.22",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
