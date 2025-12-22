@@ -19,17 +19,17 @@ const Contact = () => {
         alert('Thank you for your message! (This is a demo)');
         setFormData({ name: '', email: '', message: '' });
     };
-
     return (
-        <section id="contact" className="py-20 bg-gray-50">
+        <section id="contact" className="py-20 bg-[#0a0a16] text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-                    Contact Me
+                <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
+                    Contact <span className="text-[#fbbf24]">Me</span>
+                    <div className="h-1 w-20 bg-[#fbbf24] mx-auto mt-4 rounded-full"></div>
                 </h2>
-                <div className="max-w-lg mx-auto bg-white p-8 rounded-xl shadow-md">
+                <div className="max-w-lg mx-auto bg-[#11112b] p-8 rounded-xl shadow-md border border-gray-800 hover:border-[#fbbf24]/30 transition-colors">
                     <form onSubmit={handleSubmit} className="space-y-6">
                         <div>
-                            <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                            <label htmlFor="name" className="block text-sm font-medium text-gray-300">
                                 Name
                             </label>
                             <input
@@ -39,11 +39,11 @@ const Contact = () => {
                                 value={formData.name}
                                 onChange={handleChange}
                                 required
-                                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500"
+                                className="mt-1 block w-full px-4 py-2 bg-[#0a0a16] border border-gray-700 rounded-lg text-white focus:ring-[#fbbf24] focus:border-[#fbbf24] placeholder-gray-500"
                             />
                         </div>
                         <div>
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                            <label htmlFor="email" className="block text-sm font-medium text-gray-300">
                                 Email
                             </label>
                             <input
@@ -53,11 +53,11 @@ const Contact = () => {
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
-                                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500"
+                                className="mt-1 block w-full px-4 py-2 bg-[#0a0a16] border border-gray-700 rounded-lg text-white focus:ring-[#fbbf24] focus:border-[#fbbf24] placeholder-gray-500"
                             />
                         </div>
                         <div>
-                            <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+                            <label htmlFor="message" className="block text-sm font-medium text-gray-300">
                                 Message
                             </label>
                             <textarea
@@ -67,12 +67,12 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 rows={4}
-                                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500"
+                                className="mt-1 block w-full px-4 py-2 bg-[#0a0a16] border border-gray-700 rounded-lg text-white focus:ring-[#fbbf24] focus:border-[#fbbf24] placeholder-gray-500"
                             />
                         </div>
                         <button
                             type="submit"
-                            className="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors"
+                            className="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold text-[#0a0a16] bg-[#fbbf24] hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#fbbf24] transition-colors"
                         >
                             Send Message
                         </button>

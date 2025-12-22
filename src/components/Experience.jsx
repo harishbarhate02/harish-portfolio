@@ -24,28 +24,29 @@ const Experience = () => {
     ];
 
     return (
-        <section id="experience" className="py-20 bg-white">
+        <section id="experience" className="py-20 bg-[#0a0a16]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
-                    Professional Experience
+                <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-white">
+                    Professional <span className="text-[#fbbf24]">Experience</span>
+                    <div className="h-1 w-20 bg-[#fbbf24] mx-auto mt-4 rounded-full"></div>
                 </h2>
                 <div className="space-y-8 max-w-3xl mx-auto">
                     {experiences.map((exp, index) => (
-                        <div key={index} className="flex flex-col md:flex-row gap-4 md:gap-8 p-6 bg-white border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div key={index} className="flex flex-col md:flex-row gap-4 md:gap-8 p-6 bg-[#11112b] border border-gray-800 rounded-xl hover:border-[#fbbf24]/30 transition-colors">
                             <div className="md:w-1/3">
-                                <h3 className="text-xl font-bold text-indigo-600">{exp.company}</h3>
-                                <p className="text-gray-500 text-sm mt-1">{exp.period}</p>
+                                <h3 className="text-xl font-bold text-[#fbbf24]">{exp.company}</h3>
+                                <p className="text-gray-400 text-sm mt-1">{exp.period}</p>
                             </div>
                             <div className="md:w-2/3">
-                                <h4 className="text-lg font-semibold text-gray-900">{exp.role}</h4>
+                                <h4 className="text-lg font-semibold text-white">{exp.role}</h4>
                                 {Array.isArray(exp.description) ? (
-                                    <ul className="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                                    <ul className="list-disc list-inside text-gray-300 mt-2 space-y-1">
                                         {exp.description.map((item, idx) => (
-                                            <li key={idx}>{item}</li>
+                                            <li key={idx} className="marker:text-[#fbbf24]">{item}</li>
                                         ))}
                                     </ul>
                                 ) : (
-                                    <p className="text-gray-600 mt-2">{exp.description}</p>
+                                    <p className="text-gray-300 mt-2">{exp.description}</p>
                                 )}
                             </div>
                         </div>
