@@ -7,13 +7,13 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 className="text-2xl font-bold mb-6">Let's Connect</h2>
                 <div className="flex justify-center space-x-8 mb-8">
-                    <a href="https://github.com/harishbarhate" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
+                    <a href="https://github.com/harishbarhate02" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
                         <FaGithub size={30} />
                     </a>
-                    <a href="https://linkedin.com/in/harishbarhate" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
+                    <a href="https://www.linkedin.com/in/harish-barhate-435647205/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
                         <FaLinkedin size={30} />
                     </a>
-                    <a href="mailto:harish@example.com" className="hover:text-indigo-400 transition-colors">
+                    <a href="mailto:harishbarhate29@gmail.com" className="hover:text-indigo-400 transition-colors">
                         <FaEnvelope size={30} />
                     </a>
                 </div>
