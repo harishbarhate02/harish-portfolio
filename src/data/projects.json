@@ -8,7 +8,8 @@
             "Random Forest"
         ],
         "description": "Built a classification model on 119,000+ records using Random Forest and Gradient Boosting to predict cancellations. Optimized model performance using GridSearchCV.",
-        "githubLink": "https://github.com/harishbarhate02"
+        "githubLink": "https://github.com/harishbarhate02/hotel-booking-prediction",
+        "image": "/images/projects/hotel_booking_prediction_1766423787911.png"
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
             "SQL (PostgreSQL)"
         ],
         "description": "Analysed 270,000+ athlete records using advanced SQL queries (Joins, CTEs, Window Functions) to identify performance trends.",
-        "githubLink": "https://github.com/harishbarhate02"
+        "githubLink": "https://github.com/harishbarhate02/Olympics-Data-Analysis-using-SQL",
+        "image": "/images/projects/olympics_data_analysis_1766423805416.png"
     },
     {
         "id": 3,
@@ -27,6 +29,29 @@
             "Genetic Algorithms"
         ],
         "description": "Developed an automated scheduling system using Genetic Algorithms to resolve NP-hard constraint conflicts, increasing efficiency by 40%.",
-        "githubLink": "https://github.com/harishbarhate02"
+        "githubLink": "https://github.com/harishbarhate02",
+        "image": "/images/projects/smart_timetable_generator_1766423825161.png"
+    },
+    {
+        "id": 4,
+        "title": "Housing Price Prediction",
+        "tech": [
+            "Python",
+            "Machine Learning"
+        ],
+        "description": "A machine learning project to predict housing prices based on various features.",
+        "githubLink": "https://github.com/harishbarhate02/housing-price-prediction",
+        "image": "/images/projects/housing_price_prediction_1766423856357.png"
+    },
+    {
+        "id": 5,
+        "title": "Hospital Management System",
+        "tech": [
+            "Python",
+            "Tkinter"
+        ],
+        "description": "A desktop application for managing hospital records, patients, and staff using Python and Tkinter.",
+        "githubLink": "https://github.com/harishbarhate02/Hospital-Management-System-Project-in-Python-using-Tkinter",
+        "image": "/images/projects/hospital_management_system_1766423871998.png"
     }
 ]
