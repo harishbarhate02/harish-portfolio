@@ -12,12 +12,29 @@ const Contact = () => {
         setFormData(prev => ({ ...prev, [name]: value }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Handle form submission logic here (e.g., mailto or API)
-        console.log('Form submitted:', formData);
-        alert('Thank you for your message! (This is a demo)');
-        setFormData({ name: '', email: '', message: '' });
+        
+        try {
+            // Replace 'YOUR_FORM_ID' with your actual Formspree endpoint ID
+            const response = await fetch('https://formspree.io/f/mgoplpro', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+            
+            if (response.ok) {
+                alert('Thank you for your message!');
+                setFormData({ name: '', email: '', message: '' });
+            } else {
+                alert('Oops! There was a problem submitting your form.');
+            }
+        } catch (error) {
+            alert('Oops! There was a problem submitting your form.');
+        }
     };
     return (
         <section id="contact" className="py-20 bg-[#0a0a16] text-white">

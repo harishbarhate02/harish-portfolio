@@ -31,7 +31,7 @@ const Hero = () => {
                         <a href="#projects" className="px-8 py-3 bg-[#fbbf24] text-[#0a0a16] font-bold rounded-full hover:bg-yellow-400 transition-colors shadow-lg hover:shadow-xl hover:shadow-[#fbbf24]/20">
                             View Projects
                         </a>
-                        <a href="/assets/Resume.pdf" target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-transparent text-[#fbbf24] border border-[#fbbf24] font-medium rounded-full hover:bg-[#fbbf24]/10 transition-colors">
+                        <a href={`${import.meta.env.BASE_URL}assets/Resume.pdf`} target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-transparent text-[#fbbf24] border border-[#fbbf24] font-medium rounded-full hover:bg-[#fbbf24]/10 transition-colors">
                             Download Resume
                         </a>
                     </div>
